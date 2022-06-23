@@ -26,7 +26,6 @@ if __name__ == '__main__':
   axs[0,2].imshow(image_powered, cmap="gray")
   axs[1,0].imshow(image_logged, cmap="gray")
   axs[1,1].imshow(image_avged, cmap="gray")
-  axs[1,1].imshow(image_avged, cmap="gray")
   axs[1,2].imshow(image_Sobel_X, cmap="gray")
   axs[2,0].imshow(image_Sobel_Y, cmap="gray")
   axs[2,1].imshow(image_median, cmap="gray")

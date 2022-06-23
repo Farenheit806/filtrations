@@ -13,7 +13,7 @@ def filter_pixel(n,m,image,mask, D, B, length):
 def get_avg(image, num: int):
   image_avged = np.copy(image)
   N, M = image_avged.shape
-  mask = np.ones((num,num))
+  mask = np.ones((num,num))/(num*num)
   D = getD(mask)
   for n in range(1, N - num // 2):
     for m in range(1, M - num // 2):
